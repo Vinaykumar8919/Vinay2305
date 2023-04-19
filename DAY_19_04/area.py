@@ -3,7 +3,7 @@ choice = int(input("Enter you choice: "))
 if choice==1:
     base = float(input("Enter base: "))
     height=float(input("Enter height: "))
-    print("Area of traingle is ", 0.*base*height)
+    print("Area of traingle is ", 0.5*base*height)
 elif choice==2:
     base = float(input("Enter length: "))
     height=float(input("Enter breadth: "))
